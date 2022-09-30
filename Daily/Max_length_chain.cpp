@@ -28,17 +28,7 @@ public:
         sort(p, p+n, comp);
         int ans = 1;
         int last = p[0].second;
-        for(int i=1; i<n; i++)
-        {
-            if(p[i].first <= last)
-                last = min(last, p[i].second);
-            else
-             {
-                 ans++;
-                 last = p[i].second;
-             }
-            // ans = max(ans, curr);
-        }
+        //for problem
         return ans;
     }
 };
