@@ -20,8 +20,7 @@ public:
         vector<int> ans(n,-1);
         for(int i=0;i<n;i++){
             while(!s.empty() and a[s.top()]>=a[i]) s.pop();
-            if(!s.empty()) ans[i]=a[s.top()];
-            s.push(i);
+            
         }
         return ans;
     }
