@@ -19,8 +19,7 @@ public:
 	                dp[j][j+gap] = max(A[j],A[j+gap]);
 	            }else{
 	                dp[j][j+gap] = max(
-	      A[j]+min(dp[j+2][j+gap],dp[j+1][j+gap-1]),
-	     A[j+gap]+min(dp[j][j+gap-2],dp[j+1][j+gap-1]));
+	      
 	            }
 	        } 
 	    }
