@@ -61,8 +61,7 @@ public:
             if(itr->data < pivot->data){
                 int temp = init->data;
                 init->data = itr->data;
-                itr->data = temp;
-                init = init->next;
+                
                 itr = itr->next;
             }
             
