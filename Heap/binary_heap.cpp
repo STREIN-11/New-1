@@ -2,7 +2,6 @@
 using namespace std;
 
 void swap(int *x,int* y);
-
 class heap
 {
     int *head;
@@ -27,7 +26,6 @@ public:
 heap::minheap(int cap){
 
 }
-
 
 int main(){
 
