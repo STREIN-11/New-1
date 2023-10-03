@@ -14,9 +14,7 @@ using namespace std;
 class Solution{
 	public:
 void storeFactorials(vector<int> &factorial) {
-    factorial[0] = 1;
-    for(int i=1; i<=9; i++) {
-        factorial[i] = factorial[i-1]*i;
+    
     }
 }
 
