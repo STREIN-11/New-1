@@ -104,6 +104,8 @@ Node* buildTree(string str)
 }
 void postorderTraversal(Node* root)
 {
+  if (!root)
+        return;
     
 
     // recur on left subtree
