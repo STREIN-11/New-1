@@ -28,25 +28,7 @@ using namespace std;
 class Solution{   
 public:
     int addMinChar(string str){    
-        int n=str.length();
-        int i=0,j=n-1;
-        int count=0;
-        while(i<j){
-            if(str[i]==str[j]){
-                i++;
-                j--;
-               
-            }
-            else{
-                count++;
-                i=0;
-                j=n-1-count;
-                
-            }
-        }
-        return count;
         
-    }
 };
 
 //{ Driver Code Starts.
